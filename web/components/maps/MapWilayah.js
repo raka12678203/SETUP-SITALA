@@ -36,9 +36,9 @@ const MapWilayah = (props) => {
 
 	const [geoJsonData, setGeoJsonData] = useState(null);
 
-	// const url = "http://localhost:3001/api/locations/all/datas?filter=Wilayahs";
+	const url = "172.16.31.70:9000/api/locations/all/datas?filter=Wilayahs";
 	// const url = "http://localhost:3001/api/locations/wilayah/all/datas";
-	const url = "https://sitala-api.jurnalpendidikan.online:9000/api/locations/all/datas?filter=Wilayahs";
+	// const url = "https://sitala-api.jurnalpendidikan.online:9000/api/locations/all/datas?filter=Wilayahs";
 
 	const fetchGeoJSONData = async () => {
 		try {
